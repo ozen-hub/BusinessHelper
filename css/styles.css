@@ -112,13 +112,11 @@ border-bottom: 3px solid transparent;
 .about-main-inner{
     width: 80%;
     height: auto;
-    border: 1px solid red;
     position: relative;
 }
 .about-desc-outer{
     width: 75%;
     height: auto;
-    border: 1px solid red;
     margin-top: 50px;
     position: absolute;
     right: 100px;
@@ -126,10 +124,32 @@ border-bottom: 3px solid transparent;
 }
 .about-desk-left, .about-desk-rigth{
     flex: 1;
-    border: 1px solid red;
     height: 500px;
+}
+.about-desk-left{
+    background-image: url('https://img.freepik.com/free-photo/portrait-woman-customer-service-worker_144627-37942.jpg?w=360&t=st=1674903279~exp=1674903879~hmac=63aabaae38eb126a8e410108fff5117109883050e858198c1001d18ecc5480bc');
+    background-size: cover;
+    background-position: top;
 }
 .about-desk-rigth{
     margin-top: 70px;
+    background-color: #ecf0f1;
+}
+.decerator{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: #f1c40f;
+    border-radius: 100%;
+    top: 110px;
+    right: 2px;
 }
 /** =========about==========*/
+
+.outer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
