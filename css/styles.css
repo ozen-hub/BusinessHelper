@@ -7,18 +7,51 @@
 .header-outer{
     width: 100%;
     height: 60px;
-    border: 1px solid red;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
     display: flex;
 }
 .header-left, .header-right{
     flex: 1;
-    border: 1px solid red;
     padding: 0 13px;
 }
 .header-left{
     display: flex;
     align-items: center;
 }
-.header-left>img{
+.header-left>.logo{
     height: 50px;
 } 
+
+/** =========Nav bar==========*/
+.header-right > ul{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-right > ul > li{
+    margin-right: 8px;
+border-bottom: 3px solid transparent;
+    padding: 5px 15px;
+}
+.header-right > ul > li:last-child{
+    margin-right: 0;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-right > ul > li> a{
+    text-decoration: none;
+    color: #2c3e50;
+}
+.header-right > ul > li:hover{
+    border-bottom: 3px solid #d35400;
+    cursor: pointer;
+}
+/** =========Nav bar==========*/
