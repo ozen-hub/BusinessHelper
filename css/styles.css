@@ -7,6 +7,7 @@
 .header-outer{
     background-color: white;
     position: sticky;
+    z-index: 500;
     top: 0;
     width: 100%;
     height: 60px;
@@ -97,3 +98,38 @@ border-bottom: 3px solid transparent;
     color: white
 }
 /** =========slider==========*/
+
+/** =========about==========*/
+.about-main-outer{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.about-main-inner{
+    width: 80%;
+    height: auto;
+    border: 1px solid red;
+    position: relative;
+}
+.about-desc-outer{
+    width: 75%;
+    height: auto;
+    border: 1px solid red;
+    margin-top: 50px;
+    position: absolute;
+    right: 100px;
+    display: flex;
+}
+.about-desk-left, .about-desk-rigth{
+    flex: 1;
+    border: 1px solid red;
+    height: 500px;
+}
+.about-desk-rigth{
+    margin-top: 70px;
+}
+/** =========about==========*/
