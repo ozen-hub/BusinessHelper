@@ -65,6 +65,35 @@ border-bottom: 3px solid transparent;
     background-image: url('https://img.freepik.com/free-photo/male-female-business-people-working-tablet-office_1303-22848.jpg?w=740&t=st=1674900001~exp=1674900601~hmac=c705fcd94899b8a68206c3d69ba158176ad57201e8f0a0625273a42351b9f10a');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     background-position: center;
+}
+.slider-box{
+    width: 450px;
+    height: auto;
+    background-color: #16a085;
+    padding: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+}
+.slider-header-text{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.slider-para{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.slider-button{
+    border-radius: 50px;
+    padding: 8px 20px;
+    background:none;
+    border: 1px solid white;
+    color: white
 }
 /** =========slider==========*/
