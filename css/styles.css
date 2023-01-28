@@ -5,6 +5,9 @@
 }
 
 .header-outer{
+    background-color: white;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 60px;
     -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
@@ -28,7 +31,6 @@
 .header-right > ul{
     width: 100%;
     height: 100%;
-
     display: flex;
     list-style: none;
     align-items: center;
@@ -55,3 +57,14 @@ border-bottom: 3px solid transparent;
     cursor: pointer;
 }
 /** =========Nav bar==========*/
+
+/** =========slider==========*/
+.slider-main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/male-female-business-people-working-tablet-office_1303-22848.jpg?w=740&t=st=1674900001~exp=1674900601~hmac=c705fcd94899b8a68206c3d69ba158176ad57201e8f0a0625273a42351b9f10a');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/** =========slider==========*/
